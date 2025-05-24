@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "www.immerspeech.com",
+      "destination": "https://immerspeech.com",
+      "permanent": true
+    }
+  ]
+}
