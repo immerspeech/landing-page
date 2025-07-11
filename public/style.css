@@ -703,6 +703,9 @@ section p {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+    body{
+        color-scheme: light;
+    }
     .header {
         flex-wrap: wrap;
         justify-content: center;
@@ -801,7 +804,7 @@ section p {
     }
     .background-image-left,
     .background-image-right {
-        width: 35vw; /* Make them slightly smaller on mobile */
+        width: 55vw; /* Make them slightly smaller on mobile */
         opacity: 0.1; /* Even more subtle on mobile */
     }
 }
