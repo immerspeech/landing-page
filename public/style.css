@@ -705,6 +705,7 @@ section p {
 @media (max-width: 768px) {
     body{
         color-scheme: light;
+        background-color: var(--white);
     }
     .header {
         flex-wrap: wrap;
