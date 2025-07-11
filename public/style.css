@@ -351,6 +351,109 @@ section p {
     margin: 0 auto 10px auto;
 }
 
+/* Vision Section */
+.vision-quote {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--dark-grey);
+    max-width: 800px;
+    margin: 40px auto 60px auto;
+    line-height: 1.4;
+}
+
+.vision-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.industry-item {
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    transition: all 0.3s ease-in-out;
+}
+
+.industry-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: var(--accent-color);
+}
+
+.industry-item h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--dark-grey);
+    margin-bottom: 15px;
+}
+
+.industry-item p {
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--medium-grey);
+    line-height: 1.6;
+    margin-bottom: 0; /* Override section p margin */
+    max-width: none; /* Override section p max-width */
+}
+/* Vision Section */
+.vision-quote {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--dark-grey);
+    max-width: 800px;
+    margin: 40px auto 60px auto;
+    line-height: 1.4;
+}
+
+.vision-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.industry-item {
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    transition: all 0.3s ease-in-out;
+}
+
+.industry-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: var(--accent-color);
+}
+
+.industry-item h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--dark-grey);
+    margin-bottom: 15px;
+}
+
+.industry-item p {
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--medium-grey);
+    line-height: 1.6;
+    margin-bottom: 0; /* Override section p margin */
+    max-width: none; /* Override section p max-width */
+}
+
+
 /* Features Section (existing) */
 .features-grid {
     display: grid;
